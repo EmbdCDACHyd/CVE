@@ -50,11 +50,10 @@ These observations confirm that the communication link between the sensors and t
 
 ## Threat Model and Impact
 
-An attacker who has physical proximity to the property and a low-cost transmitter capable of emitting signals in the 433 MHz band can carry out this attack. The attacker does not need access to the alarm system, the mobile application, Wi-Fi credentials, or encryption keys.
-
-The attacker’s objective is to prevent sensors from sending alerts to the central unit, effectively suppressing alarms and notifications.
-
-The consequences of such interference are significant: intrusions or sensor triggers may go entirely undetected, leaving users unaware of potential security breaches.
+- An attacker who has physical proximity to the property and a low-cost transmitter capable of emitting signals in the 433 MHz band can carry out this attack.  
+- The attacker does not need access to the alarm system, the mobile application, Wi-Fi credentials, or encryption keys.  
+- The attacker’s objective is to prevent sensors from sending alerts to the central unit, effectively suppressing alarms and notifications.  
+- The consequences of such interference are significant: intrusions or sensor triggers may go entirely undetected, leaving users unaware of potential security breaches.
 
 ## Analysis and Mitigations
 
